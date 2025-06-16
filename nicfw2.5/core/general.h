@@ -1,0 +1,11 @@
+const u8 isValidFreq(const u32*);
+const u8 countDigits(u32 val);
+const u16 decToOct(u16 dec);
+const char groupLetter(const u8 groupNumber);
+const u32 Pow10(u8 exp);
+void sprint_number(char* buffer, const bit padSpaces, const bit nullTerminate);
+void sprint_power(const u8 dutyCycle, const bit isVhf);
+const u8 clampFreq(u32* freq);
+const u8 subCounter(u8* counter, const u8 by);
+const u8 crc32(void);
+const u8 isFreqVhf(const u32* freq, const u8 rx);

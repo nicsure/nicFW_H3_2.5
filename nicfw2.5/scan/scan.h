@@ -1,0 +1,22 @@
+void scanStart(void);
+void scanModeChannel(void);
+void scanModeVFO(void);
+void scanModeFMT(void);
+void scanStop(void);
+void scanTick(void);
+void scanClearIgnores(void);
+void scanAddIgnore(const u32* freq);
+const u8 scanCheckIgnores(const u32* freq);
+const u8 scanUltra(const u32* freq);
+void scanFreqCountStart(void);
+void scanFreqCountTick(void);
+void scanPresetMenu(void);
+void scanClearMultiPresets(void);
+const u8 scanUsingMultiPresets(void);
+void scanLoadPreset(void);
+void scanApplyPreset(void);
+void scanPrepare(void);
+
+const char code SCANPRESETS[] = "Scan Presets";
+const char code KHZ[] = "kHz";
+const char code US[] = "US:";

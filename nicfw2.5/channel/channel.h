@@ -1,0 +1,11 @@
+void channelActiveToMenu(void);
+void channelActiveFromMenu(void);
+void channelLoad(const u8 channelNum, const u8 vfoPosition);
+void channelSave(const u8 vfoPosition);
+void channelLoadMap(void);
+const u8 channelValidateGroup(u8 candidate, const u8 dir);
+const u8 channelCheckGroup(const u8 channel, const u8 group);
+void channelRead(const u8 channelNum, channelInfo* vfo);
+void channelGroupLabel(const u8 group);
+void channelSprintName(const u8 channelNum);
+void channelSaveActive(void);
